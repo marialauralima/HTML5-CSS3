@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente o tamanho no seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--a ordem do código faz diferença. Ordem crescente ou decrescente-->
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+
+    <!-- MP3 WAV OGG são formatos de áudio-->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML</p>
+
+    <!--PRIMEIRA FORMA DE CARREGAR UM ÁUDIO - MAIS LIMITADA:
+
+        <audio src="midia/Wooden-Train-Whistle.mp3" controls autoplay></audio>        
+
+    ------------------------OU--------------------------->
+
+    <audio preload="metadata" autoplay controls loop> <!--nunca colocar auto ou deixar o espaço em branco-->
+        <source src="midia/Wooden-Train-Whistle.mp3" type="audio/mpeg">
+        <source src="midia/Wooden-Train-Whistle.ogg" type="audio/ogg">
+        <source src="midia/Wooden-Train-Whistle.wav" type="audio/wav"> <!--evitar ao máximo esse tipo de arquivo, pois são muito grandes e pesados-->
+        <p>Infeliszmente o seu navegador não consegue reproduzir áudio. 
+        <a href="midia/Wooden-Train-Whistle.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+
+    
+    
+    
+    
+</body>
+</html>
