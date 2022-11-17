@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(186, 231, 231);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: rgb(47, 47, 132);
+}
+
+#serviços{      /* para indicar um id #nome_do_id */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#clientes{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#contato{
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.titulo{      /* para indicar uma classe .nome_da_classe */
+    margin-left: 00px;
+    margin-right: 00px;
+}
