@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #   -> DENTRO DE UM DOCUMENTO HTML SÓ SE PODE TER UM ELEMENTO ID
+    em HTML é class = em CSS é .
+
+    
+
+    é possível que um elemento tenha mais de uma classe, inclusive é possível que tenha id e classe, mas as configurações de id sobrepõe as de classe.
+    ex: class="class01 class02"   -> sem precisar separar por vírgula
+    id="valor-id" class="valor-class"
+        
+*/
+
+body{
+    background-color: rgb(187, 222, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: rgb(22, 47, 39);
+}
+
+
+/* a baixo, seletor personalizado de id */
+h1#principal{
+    text-align: center;
+    background-color: rgba(89, 177, 148, 0.69);
+    color: black
+}
+
+
+/* a baixo, seletor personalizado de classe */
+.basico{
+    background-color: rgba(89, 177, 148, 0.344);
+    font-weight: bold;
+}
+
+
+
