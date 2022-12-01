@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <!-- Conferir se as fontes possuem acento-->
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fontes/bellania.ttf') format(opentype),url('fontes/bellania.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple advanced Typography)
+            - svg
+        
+        
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        h1{
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Essa fonte está funcionando</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta necessitatibus corporis nesciunt eum quod, molestiae esse harum quaerat repellat dolorem, dignissimos soluta, autem consequatur et quibusdam? At possimus voluptas perferendis. <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio harum perspiciatis possimus quam ab consequatur sint ad quas, impedit omnis eum error aut iste laborum reiciendis rem ex quia id? Lorem ipsum dolor, sit amet consectetur adipisicing elit. A commodi sequi nisi dolorum? Ex impedit minima iure adipisci quis, excepturi consequatur laboriosam, quasi ad eum itaque cumque. Quis, iusto consectetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid laudantium dolor laboriosam animi illum voluptatum eos excepturi enim deleniti nostrum cum consectetur voluptas fuga aperiam inventore ducimus, perferendis velit.</p>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*siga a sugestão da IDE em colocar as safe combinations, isso garante que o texto aparecerá com uma fonte coesa independente do dispositivo*/
+
+            font-size: 16px ; /* tamanho padrão 16 px */
+            /* 
+            Medidas absolutas 
+            cm, mm, in (polegada), px,
+            pt, pc -> não são recomendados usar em material digital
+            recomendado -> px
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            recomendado -> em
+            */
+            
+        }
+        h1{
+            font-weight: 1em;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+         /* ordem do shorthand font
+        - font-style -> font-weith -> font-size -> font-family -
+        */
+        
+        h2{
+            font: italic bold 3em 'work Sans', sans-serif;
+            
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vitae velit aspernatur neque, eaque delectus sapiente mollitia qui enim ullam nulla hic assumenda dignissimos laboriosam consequatur ut at, culpa corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, laudantium recusandae in vel impedit ratione laborum aut minima iure, quis nihil inventore quae harum quas ea veritatis eius, provident rerum? 
+    <br> 
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum delectus officia dolores optio dolorum, corrupti perferendis magni mollitia voluptatem eum aut obcaecati, voluptatibus pariatur ipsa nisi accusamus! Molestiae, voluptas consequuntur?
+    </p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore aut eaque vero minima ex nostrum soluta culpa temporibus voluptatibus et dignissimos, voluptas saepe aspernatur aliquid officiis fuga. Veniam, enim nisi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium est vero, aliquam unde nulla labore eveniet modi nihil quos dicta architecto voluptatibus facere saepe dolore ex recusandae assumenda porro minus.</p>
+    
+</body>
+</html>
